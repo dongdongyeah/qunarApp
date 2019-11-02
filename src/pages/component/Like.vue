@@ -1,24 +1,25 @@
 <template>
   <div class='like'>
-    <div class='like-top'></div>
-    <p class='title'><span class='iconfont iconfont-like'>&#xe757;</span>猜你喜欢</p>
-    <div class='like-list border-bottom' v-for='item of likeList' :key='item.id'>
-        <img class='like-img' :src='item.imgUrl'/>
-        <div class='like-info'>
-          <p class='info-title'>{{item.title}}</p>
-          <div class='info-start'>
-            <span class='iconfont iconfont-star'>&#xe6a3;&#xe6a3;&#xe6a3;&#xe6a3;&#xe6a3;</span>
-            <span>{{item.comment}}</span><span>条评论</span>
-          </div>
-          <div class='info-center'>
-            <span class='start'>￥</span>
-            <span class='center'>{{item.price}}</span>
-            <span class='end'>起</span>
-            <span class='address'>{{item.place}}</span>
-          </div>
-          <p class='info-end'>{{item.info}}</p>
-        </div>
+    <div class='like-top'>
+      <p class='title'><span class='iconfont iconfont-like'>&#xe757;</span>猜你喜欢</p>
     </div>
+    <div class='like-list border-bottom' v-for='item of likeList' :key='item.id'>
+      <img class='like-img' :src='item.imgUrl'/>
+      <div class='like-info'>
+        <p class='info-title'>{{item.title}}</p>
+        <div class='info-start'>
+          <span class='iconfont iconfont-star'>&#xe6a3;&#xe6a3;&#xe6a3;&#xe6a3;&#xe6a3;</span>
+          <span>{{item.comment}}</span><span>条评论</span>
+        </div>
+        <div class='info-center'>
+          <span class='start'>￥</span>
+          <span class='center'>{{item.price}}</span>
+          <span class='end'>起</span>
+          <span class='address'>{{item.place}}</span>
+        </div>
+        <p class='info-end'>{{item.info}}</p>
+      </div>
+  </div>
   </div>
 </template>
 
@@ -68,15 +69,15 @@ export default {
 <style lang='stylus' scoped>
   .like-top
     margin-top: 5px
-    height: 10px
+    height: 50px
     background: rgb(245,245,245)
-  .title
-    height: 20px
-    padding: 15px
-    font-size: 16px
-    .iconfont-like
-      color: rgb(255,90,89)
-      margin-right: 5px
+    .title
+      height: 20px
+      padding: 15px
+      font-size: 16px
+      .iconfont-like
+        color: rgb(255,90,89)
+        margin-right: 5px
   .like-list
     display: flex
     padding-bottom: 15px
