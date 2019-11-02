@@ -8,6 +8,7 @@
         <p class='icon-title'>{{item.title}}</p>
       </li>
     </swiper-slide>
+    <div class="swiper-pagination" slot="pagination"></div>
   </swiper>
 </template>
 
@@ -17,6 +18,7 @@ export default {
   data () {
     return {
       swiperOption: {
+        pagination: '.swiper-pagination',
         autoplay: false
       },
       iconList: [{
@@ -83,14 +85,12 @@ export default {
     overflow: hidden
     height: 0
     padding-bottom: 50%
-    background: green
     .icon
       position: relative
       float: left
       width: 25%
       height: 0
       padding-bottom: 25%
-      background :yellow
       .icon-wrap
         position: absolute
         top: 0
@@ -99,7 +99,7 @@ export default {
         bottom: 20px
         padding-top: 5px
         text-align: center
-        background: blue
+        background: #fff
         .icon-img
           height: 100%
       .icon-title
