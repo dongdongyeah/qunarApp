@@ -1,7 +1,7 @@
 <template>
   <div class='weekend'>
     <div class='header'>周末去哪儿</div>
-    <div v-for='item of weekendList' :key='item.id'>
+    <div v-for='item of list' :key='item.id'>
       <img class='img' :src='item.imgUrl'/>
       <div class='text'>
         <p class='title'>{{item.title}}</p>
@@ -14,25 +14,8 @@
 <script>
 export default {
   name: 'HomeWeekend',
-  data () {
-    return {
-      weekendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-        title: '京城周末撒欢',
-        desc: '在帝都过周末，不仅仅是城中游！'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-        title: '京城周末撒欢',
-        desc: '在帝都过周末，不仅仅是城中游！'
-      }, {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg',
-        title: '京城周末撒欢',
-        desc: '在帝都过周末，不仅仅是城中游！'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>

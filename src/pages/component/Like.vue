@@ -3,7 +3,7 @@
     <div class='like-top'>
       <p class='title'><span class='iconfont iconfont-like'>&#xe757;</span>猜你喜欢</p>
     </div>
-    <div class='like-list border-bottom' v-for='item of likeList' :key='item.id'>
+    <div class='like-list border-bottom' v-for='item of list' :key='item.id'>
       <img class='like-img' :src='item.imgUrl'/>
       <div class='like-info'>
         <p class='info-title'>{{item.title}}</p>
@@ -17,7 +17,7 @@
           <span class='end'>起</span>
           <span class='address'>{{item.place}}</span>
         </div>
-        <p class='info-end'>{{item.info}}</p>
+        <p class='info-end'>{{item.desc}}</p>
       </div>
   </div>
   </div>
@@ -26,42 +26,8 @@
 <script>
 export default {
   name: 'HomeLike',
-  data () {
-    return {
-      likeList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1910/5b/5b66f51364e1fd15a3.img.png_200x200_eaaaee15.png',
-        title: '北京欢乐谷',
-        comment: '80990',
-        price: '149',
-        place: '朝阳区',
-        info: '亚洲唯一飞行式过山车等你来挑战'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-        title: '故宫',
-        comment: '80990',
-        price: '149',
-        place: '朝阳区',
-        info: '亚洲唯一飞行式过山车等你来挑战'
-      }, {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1910/5b/5b66f51364e1fd15a3.img.png_200x200_eaaaee15.png',
-        title: '北京欢乐谷',
-        comment: '80990',
-        price: '149',
-        place: '朝阳区',
-        info: '亚洲唯一飞行式过山车等你来挑战'
-      }, {
-        id: '0004',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-        title: '故宫',
-        comment: '80990',
-        price: '149',
-        place: '朝阳区',
-        info: '亚洲唯一飞行式过山车等你来挑战'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
@@ -110,6 +76,7 @@ export default {
           position: absolute
           color: #212121
           right: 15px
+          font-size: 12px
       .info-end
         color: #ff5555
 </style>

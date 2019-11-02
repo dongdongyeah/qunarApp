@@ -1,0 +1,224 @@
+{
+  "ret": true,
+  "data": {
+    "city": "北京",
+    "swiperList": [
+      {
+        "id": "0001",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201910/95cf4225271b1e47c920473cdcec7d98.jpg_750x200_52be508b.jpg"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201910/fcc952d6b479db0e7e61922f3ee70f04.jpg_750x200_c5b67f70.jpg"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201910/f9511d2b13e02be5aa3969a68d63a633.jpg_750x200_1c250e36.jpg"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201910/e7eac5a5e99e6517c61b953c0fece63b.jpg_750x200_4b701cf8.jpg"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20195/aef5f8864f5a1167599609307571b2c4.jpg_750x200_db7bedbe.jpg"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/3e/52e1824f1ace7202.jpg_750x200_ac90db3f.jpg"
+      },
+      {
+        "id": "0007",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201910/c8762210baff5ade1a3b2fe0ab914992.png_750x200_9bbb2f51.png"
+      },
+      {
+        "id": "0008",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201910/5ebde45f144a50e6427de9e74dad50d4.jpg_750x200_179eb37f.jpg"
+      },
+      {
+        "id": "0009",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/201910/33d3df12507f1786fde6b72917af38cc.jpg_750x200_c8cc2871.jpg"
+      },
+      {
+        "id": "0010",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/b1/5fb695dd812fdc02.jpg_750x200_6f896d28.jpg"
+      }
+    ],
+    "iconList": [
+      {
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "景点门票"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png",
+        "desc": "故宫"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "desc": "北京必游"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/a40ee278d67000f2a29d2e20f6a029b3.png",
+        "desc": "香山公园"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "desc": "一日游"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/67/9a1678221b8e0e02.png",
+        "desc": "古北水镇"
+      },
+      {
+        "id": "0007",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/338c5b924c5809e8c7b14f60a953c3e2.png",
+        "desc": "欢乐谷万圣节"
+      },
+      {
+        "id": "0008",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+        "desc": "赏红叶"
+      },
+      {
+        "id": "0009",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+        "desc": "泡温泉"
+      },
+      {
+        "id": "0010",
+        "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/bf88c62458044ca2ef9d733690eef3fc.png",
+        "desc": "优惠券"
+      }
+    ],
+    "likeList": [
+      {
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1910/5b/5b66f51364e1fd15a3.img.png_200x200_eaaaee15.png",
+        "title": "北京欢乐谷",
+        "comment": "80900",
+        "price": "149",
+        "place": "朝阳区",
+        "desc": "亚洲唯一飞行式过山车等你来挑战"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg",
+        "title": "故宫",
+        "comment": "547714",
+        "price": "40",
+        "place": "东城区",
+        "desc": "世界五大宫之首，穿越与您近在咫尺"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1708/2b/2b3b94de99c0a425a3.img.jpg_200x200_2458ffb2.jpg",
+        "title": "八达岭长城",
+        "comment": "90231",
+        "price": "35",
+        "place": "延庆县",
+        "desc": "不到长城非好汉"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1507/cc/19733fc0135062788140cbb48ae606a7.water.jpg_200x200_d9ebe2fd.jpg",
+        "title": "北京野生动物园",
+        "comment": "80900",
+        "price": "122",
+        "place": "大兴区",
+        "desc": "敢与森林之王近距离接触吗？"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1903/5d/5dcaf453dfd6f5dba3.img.jpg_200x200_51d03f19.jpg",
+        "title": "古北水镇",
+        "comment": "80900",
+        "price": "140",
+        "place": "密云县",
+        "desc": "走进那个画中的小镇"
+      },
+      {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201405/12/51b63883c25f5d87af3c08bb016e2bd7.jpg_200x200_8eb33f07.jpg",
+        "title": "恭王府",
+        "comment": "80900",
+        "price": "40",
+        "place": "西城区",
+        "desc": "一座恭王府，半部清代史"
+      },
+      {
+        "id": "0007",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1503/dc/dc651cd2e01fb900.img.jpg_200x200_04f5b7b7.jpg",
+        "title": "南宫温泉水世界",
+        "comment": "80900",
+        "price": "57",
+        "place": "南宫广场",
+        "desc": "温泉与水世界，沐浴与戏水的有趣结合"
+      },
+      {
+        "id": "0008",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1910/fd/fdba19c142483f00a3.water.jpg_200x200_a0175f4b.jpg",
+        "title": "北京杜莎夫人蜡像馆",
+        "comment": "80900",
+        "price": "144",
+        "place": "前门大街",
+        "desc": "听说能遇到杰伦哟"
+      },
+      {
+        "id": "0009",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201403/07/a3231208ca4095bef77068c202d95bd2.jpg_200x200_0d7d4e22.jpg",
+        "title": "香山公园",
+        "comment": "80900",
+        "price": "13.8",
+        "place": "海淀区",
+        "desc": "深秋时节，红叶漫山遍野，灿烂夺目"
+      },
+      {
+        "id": "0010",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/f5/f5f45e1a83537bcb.water.jpg_200x200_444cc7e8.jpg",
+        "title": "圆明园",
+        "comment": "80900",
+        "price": "25",
+        "place": "海淀区",
+        "desc": "百年皇家的珍宝,民族耻辱的见证"
+      }
+    ],
+    "weekendList": [
+      {
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg",
+        "title": "京城周末撒欢",
+        "desc": "在帝都过周末，不仅仅是城中游！"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1811/7e/476589267ebb41.jpg_r_640x214_bf599709.jpg",
+        "title": "京城溜娃必去",
+        "desc": "德智体美劳全面发展的亲子日，这些地方该去看看"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/aa/7baaf8a851d221.jpg_r_640x214_1431200f.jpg",
+        "title": "帝都必打卡",
+        "desc": "来北京必去的景点非这些地方莫属"
+      },
+      {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1509/81/0412da9c4db66a.jpg_r_640x214_8e23871e.jpg",
+        "title": "登高望远秋色佳",
+        "desc": "山顶满眼彩色，此情此景醉了"
+      },
+      {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/b2/fde1bfcd057a52.jpg_r_640x214_bbf3fa44.jpg",
+        "title": "儿童剧场，孩子的乐园",
+        "desc": "带宝贝观看演出，近距离体验艺术的无穷魅力"
+      }
+    ]
+  }
+}
