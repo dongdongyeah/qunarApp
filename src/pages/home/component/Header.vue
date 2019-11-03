@@ -24,12 +24,13 @@ export default {
 </script>
 
 <style lang='stylus' scoped>
+@import '~styles/varivles.styl'
   .header
     display: flex
     height: 44px
     line-height: 44px
     font: 14px
-    background: #00bcd4
+    background: $bgColor
     color: #fff
     .back
       width: 40px
