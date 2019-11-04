@@ -12,70 +12,15 @@
       <div class='area'>
         <div class='title border-topbottom'>热门城市</div>
         <div class='list'>
-          <div class='city-wrapper'>
-            <div class='city'>北京</div>
-          </div>
-          <div class='city-wrapper'>
-            <div class='city'>北京</div>
-          </div>
-          <div class='city-wrapper'>
-            <div class='city'>北京</div>
-          </div>
-          <div class='city-wrapper'>
-            <div class='city'>北京</div>
-          </div>
-          <div class='city-wrapper'>
-            <div class='city'>北京</div>
-          </div>
-          <div class='city-wrapper'>
-            <div class='city'>北京</div>
-          </div>
-          <div class='city-wrapper'>
-            <div class='city'>北京</div>
+          <div class='city-wrapper' v-for='item of hotCities' :key='item.id'>
+            <div class='city'>{{item.name}}</div>
           </div>
         </div>
       </div>
-      <div class='area'>
-        <div class='title border-topbottom'>A</div>
+      <div class='area' v-for='(item, key) of cities' :key='key'>
+        <div class='title border-topbottom'>{{key}}</div>
         <ul>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
-          <li class='city-li  border-topbottom'>阿拉善</li>
+          <li class='city-li  border-topbottom' v-for='innerItem of item' :key='innerItem.id'>{{innerItem.name}}</li>
         </ul>
       </div>
     </div>
@@ -86,6 +31,10 @@
 import BScroll from 'better-scroll'
 export default {
   name: 'CityList',
+  props: {
+    hotCities: Array,
+    cities: Object
+  },
   mounted () {
     this.scroll = new BScroll(this.$refs.wrapper)
   }
