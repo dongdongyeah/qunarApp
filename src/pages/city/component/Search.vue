@@ -21,7 +21,8 @@ export default {
       box-sizing: border-box
       width: 100%
       height: 25px
+      text-align: center
       padding: 0 4px 2px 4px
-      font-size: 13px
+      font-size: 12px
       border-radius: 3px
 </style>
