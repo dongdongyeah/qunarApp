@@ -5,7 +5,7 @@
         <div class='title border-topbottom'>您的位置</div>
         <div class='list'>
           <div class='city-wrapper your-position'>
-            <div class='city your-position'>北京</div>
+            <div class='city your-position'>{{this.$store.state.city}}</div>
           </div>
         </div>
       </div>
@@ -13,7 +13,12 @@
         <div class='title border-topbottom'>热门城市</div>
         <div class='list'>
           <div class='city-wrapper' v-for='item of hotCities' :key='item.id'>
-            <div class='city'>{{item.name}}</div>
+            <div
+             class='city'
+             @click='changeCity(item.name)'
+            >
+              {{item.name}}
+            </div>
           </div>
         </div>
       </div>
@@ -24,7 +29,13 @@
       >
         <div class='title border-topbottom'>{{key}}</div>
         <ul>
-          <li class='city-li  border-topbottom' v-for='innerItem of item' :key='innerItem.id'>{{innerItem.name}}</li>
+          <li
+            class='city-li  border-topbottom'
+            v-for='innerItem of item' :key='innerItem.id'
+            @click='changeCity(innerItem.name)'
+          >
+            {{innerItem.name}}
+          </li>
         </ul>
       </div>
     </div>
@@ -39,6 +50,14 @@ export default {
     hotCities: Array,
     cities: Object,
     letter: String
+  },
+  methods: {
+    changeCity (city) {
+      /* this.$store.dispatch('change', city) */
+      /* 下面是省略actions的方法 */
+      this.$store.commit('changeData', city)
+      this.$router.push('/')
+    }
   },
   watch: {
     letter () {

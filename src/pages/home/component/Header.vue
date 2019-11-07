@@ -9,7 +9,7 @@
     </div>
     <router-link to='/city'>
       <div class='city'>
-        {{this.city}}
+        {{this.$store.state.city}}
         <span class='iconfont icon-city'>&#xe64a;</span>
       </div>
     </router-link>
@@ -58,7 +58,7 @@ export default {
         top: 0
         left: 25px
     .city
-      width: 64px
+      min-width: 64px
       text-align: center
       color: #fff
       .icon-city

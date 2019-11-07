@@ -6,6 +6,7 @@
        v-for='item of keywordList'
         :key='item.id'
         class='border-bottom'
+        @click='changeCity(item.name)'
       >
         {{item.name}}
       </li>
@@ -21,6 +22,12 @@ export default {
     return {
       keyword: '',
       keywordList: []
+    }
+  },
+  methods: {
+    changeCity (city) {
+      this.$store.commit('changeData', city)
+      this.$router.push('/')
     }
   },
   props: {
